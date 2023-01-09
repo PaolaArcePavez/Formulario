@@ -1,36 +1,87 @@
+@font-face {
+  font-family: 'Signika Negative', sans-serif;
+  src: url(./fuente/SignikaNegative-VariableFont_wght.ttf);
+}
+
+
 body {
-    background-color: lightgoldenrodyellow;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 10% 80% 10%;
-    height: 100vh;
-    width: 100vw;
-    margin: 0%;
-}
 
-/*inicio header y navbar*/
-header {
-    grid-column: 1/5;
-    background-color: #143F6B;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-  
+  font-family: 'Signika Negativa', sans-serif;
+  background-image: url(/img/wallpaperbetter.com_1366x768.jpg);
+  text-align: center;
 
-
-.main{
-    display: flex;
-    margin-top: 6.25rem;
 }
 
 
+.inscripcion {
+  font-size: 20px;
+  font-weight: bold;
+  margin: .3125rem;
+}
 
+input {
+  margin: .3125rem;
+  font-size: 10px;
+  border-radius: .9375rem;
+  font-size: 15px;
+  font-weight: bold;
 
+}
 
+table {
+  width: 900px;
+  margin: auto;
+  border: 1px solid #143f6b;
+  border-radius: .4375rem;
+}
 
-  footer{
-    grid-column: 1/5;
-    grid-row: 3/4;
-    background-color: rgb(172, 37, 37);
-   } 
+th {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-weight: bold;
+  color: black;
+  width: auto;
+  border-radius: .3125rem;
+}
+
+td {
+  font-family: 15px solid 'Signika Negativa', sans-serif;
+  border: 3px solid #143f6b;
+  border-radius: 7px;
+  font-style: #f24c4c;
+  font-weight: bold;
+
+}
+
+select {
+  margin-bottom: .625rem;
+  margin-top: .625rem;
+  font-family: 'Signika Negativa', sans-serif;
+  outline: 0;
+  color: #f24c4c;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 9px;
+
+}
+
+#agregar {
+  font-family: 'Signika Negativa', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  background: #f24c4c;
+
+}
+
+#enviar {
+  background: #f24c4c;
+}
+
+#editar {
+  background: #f24c4c;
+}
+
+#eliminar {
+  background: #f24c4c;
+}
